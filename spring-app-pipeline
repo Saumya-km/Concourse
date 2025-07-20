@@ -1,1 +1,13 @@
+---
+resource_type:
+- name: kubectl-resource
+  type: docker-image
+  source:
+    repository: skm4356/saumya
+    tag: latest
 
+resources:
+  - name: spring-boot-source
+    type: git
+    source:
+      uri: https://github.com/azmathasan92/concourse-ci-cd.git
