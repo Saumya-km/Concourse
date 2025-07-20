@@ -16,7 +16,7 @@ jobs:
         type: docker-image
         source:
           repository: maven
-          tag: 3.6.3-jdk-11
+          tag: 3.9.11-jdk-11
       inputs:
       - name: maven-examples
       outputs:
