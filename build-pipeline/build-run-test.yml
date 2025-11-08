@@ -1,4 +1,5 @@
 ---
+# cloing github repository, resources is use to input , we can create multiple input under resources
 resources:
 - name: maven-examples
   type: git
